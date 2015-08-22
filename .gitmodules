@@ -1,0 +1,36 @@
+[submodule "libs/Enseed/Season"]
+	path = libs/Enseed/Season
+	url = https://github.com/Enseed/Season.git
+[submodule "libs/Enseed/Restless"]
+	path = libs/Enseed/Restless
+	url = https://github.com/Enseed/Restless.git
+[submodule "libs/Enseed/Generic/CountPtr"]
+	path = libs/Enseed/Generic/CountPtr
+	url = https://github.com/Enseed/GenericCountPtr.git
+[submodule "libs/Enseed/Generic/AutoPtr"]
+	path = libs/Enseed/Generic/AutoPtr
+	url = https://github.com/Enseed/GenericAutoPtr.git
+[submodule "libs/Enseed/Generic/Base"]
+	path = libs/Enseed/Generic/Base
+	url = https://github.com/Enseed/GenericBase.git
+[submodule "libs/Enseed/Generic/Devel"]
+	path = libs/Enseed/Generic/Devel
+	url = https://github.com/Enseed/GenericDevel.git
+[submodule "libs/civetweb"]
+	path = libs/civetweb
+	url = https://github.com/Enseed/civetweb.git
+[submodule "libs/cpp-netlib/uri"]
+	path = libs/cpp-netlib/uri
+	url = https://github.com/cpp-netlib/uri.git
+[submodule "libs/rapidjson"]
+	path = libs/rapidjson
+	url = https://github.com/miloyip/rapidjson.git
+[submodule "libs/Enseed/Reflect/API"]
+	path = libs/Enseed/Reflect/API
+	url = https://github.com/Enseed/ReflectAPI.git
+[submodule "libs/Enseed/Generic/Strings"]
+	path = libs/Enseed/Generic/Strings
+	url = https://github.com/Enseed/GenericStrings.git
+[submodule "libs/CodeProject/StackWalker"]
+	path = libs/CodeProject/StackWalker
+	url = https://github.com/Enseed/StackWalker.git

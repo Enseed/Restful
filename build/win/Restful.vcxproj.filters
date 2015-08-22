@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Season">
+      <UniqueIdentifier>{6b3295dc-720e-466c-acc8-ac77c0e736f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Season\Extensions">
+      <UniqueIdentifier>{34aee14c-66b4-47da-88ed-cbaa1ad61158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Season\Extensions\std">
+      <UniqueIdentifier>{481a014b-8b3b-4f2b-8c85-e93ebe2d6dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Season\Extensions\Enseed">
+      <UniqueIdentifier>{705477d3-ef19-4859-a2c2-864d2fc65832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Season\Extensions\cpp-netlib">
+      <UniqueIdentifier>{186a3dae-fe9a-4d89-a36c-701ea3c1c046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Season\Extensions\boost">
+      <UniqueIdentifier>{5facebaf-d18f-4a03-b44e-9eda67f3b433}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\RestfulServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Precompiled\Precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HTTP\HttpErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\RestfulServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HTTP\HttpDTOResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Precompiled\Precompiled.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Season.h">
+      <Filter>Season</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\BoostSeason.h">
+      <Filter>Season</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\RapidSeason.h">
+      <Filter>Season</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\boost.h">
+      <Filter>Season\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\cpp-netlib.h">
+      <Filter>Season\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\Enseed.h">
+      <Filter>Season\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\std.h">
+      <Filter>Season\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\Enseed\autoptr.h">
+      <Filter>Season\Extensions\Enseed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\Enseed\countptr.h">
+      <Filter>Season\Extensions\Enseed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\cpp-netlib\URI.h">
+      <Filter>Season\Extensions\cpp-netlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\boost\LexicalCast.h">
+      <Filter>Season\Extensions\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\boost\Optional.h">
+      <Filter>Season\Extensions\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\boost\PosixTime.h">
+      <Filter>Season\Extensions\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\std\SharedPtr.h">
+      <Filter>Season\Extensions\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\std\String.h">
+      <Filter>Season\Extensions\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\std\UniquePtr.h">
+      <Filter>Season\Extensions\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\boost\UUId.h">
+      <Filter>Season\Extensions\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\Enseed\Season\Extensions\std\Vector.h">
+      <Filter>Season\Extensions\std</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HTTP\HttpErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HTTP\HttpExceptionErrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Domain\DTO\Errors\ErrorDTO.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
