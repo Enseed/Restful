@@ -1,7 +1,7 @@
 #pragma once
 
-#include <Enseed/Restless/HTTP/HttpResult.h>
-#include <Enseed/Restless/HTTP/HttpMediaType.h>
+#include <Restless/HTTP/HttpResult.h>
+#include <Restless/HTTP/HttpMediaType.h>
 
 #include <boost/lexical_cast.hpp>
 #include <boost/uuid/uuid_io.hpp>
@@ -9,15 +9,15 @@
 #include <boost/uuid/random_generator.hpp>
 
 
-#include <Enseed/Generic/Strings/Strings.h>
-#include <Enseed/Generic/Base/RTTI.h>
+#include <Generic/Strings/Strings.h>
+#include <Generic/Base/RTTI.h>
 
-#include "C:\Work\Enseed_svn\trunk\Applications\Mediatheque\win32\Mediatek\RESTSchema\schema\generated\ErrorDTO.h"
+#include "../Domain/DTO/Errors/ErrorDTO.reflect.h"
 
 #include "HttpErrors.h"
-#include <Enseed/Restless/HTTP/HttpExceptions.h>
+#include <Restless/HTTP/HttpExceptions.h>
 
-#include <Enseed/Season/RapidSeason.h>
+#include <Season/RapidSeason.h>
 
 template<class TEX>
 class HttpExceptionError : public HttpResult

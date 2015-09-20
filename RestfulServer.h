@@ -1,8 +1,8 @@
 #ifndef __WRAPPER_RESTFULLSERVER_H__
 #define __WRAPPER_RESTFULLSERVER_H__
 
-#include <Enseed/Restless/WebServer/RestlessServer.h>
-#include <Enseed/Generic/AutoPtr/AutoPtr.h>
+#include <Restless/WebServer/RestlessServer.h>
+#include <Generic/AutoPtr/AutoPtr.h>
 
 struct mg_connection;
 

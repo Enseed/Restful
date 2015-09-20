@@ -1,15 +1,15 @@
 #include "Precompiled.h"
 #include "RestfulServer.h"
 #include "Domain/DTO/Errors/ErrorDTO.h"
-#include "Domain/DTO/Errors/ErrorDTO.h.reflect.h"
+#include "Domain/DTO/Errors/ErrorDTO.reflect.h"
 #include "HTTP/HttpDTOResult.h"
 #include <boost/uuid/random_generator.hpp>
 #include <boost/date_time/microsec_time_clock.hpp>
-#include <Enseed/Restless/HTTP/HttpStatus.h>
-#include <Enseed/Restless/HTTP/HttpResult.h>
-#include <Enseed/Restless/HTTP/HttpMediaType.h>
-#include <Enseed/Restless/HTTP/HttpResponse.h>
-#include <Enseed/Restless/HTTP/HttpExceptions.h>
+#include <Restless/HTTP/HttpStatus.h>
+#include <Restless/HTTP/HttpResult.h>
+#include <Restless/HTTP/HttpMediaType.h>
+#include <Restless/HTTP/HttpResponse.h>
+#include <Restless/HTTP/HttpExceptions.h>
 #include "HTTP/HttpErrors.h"
 
 #include "Log.h"

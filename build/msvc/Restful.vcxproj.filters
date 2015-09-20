@@ -53,15 +53,6 @@
     <ClInclude Include="..\..\Precompiled\Precompiled.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\libs\Enseed\Season\Season.h">
-      <Filter>Season</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\libs\Enseed\Season\BoostSeason.h">
-      <Filter>Season</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\libs\Enseed\Season\RapidSeason.h">
-      <Filter>Season</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\libs\Enseed\Season\Extensions\boost.h">
       <Filter>Season\Extensions</Filter>
     </ClInclude>
@@ -116,10 +107,13 @@
     <ClInclude Include="..\..\HTTP\HttpExceptionErrors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Domain\DTO\Errors\ErrorDTO.reflect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\Domain\DTO\Errors\ErrorDTO.h">
+    <REFLECT Include="..\..\Domain\DTO\Errors\ErrorDTO.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
+    </REFLECT>
   </ItemGroup>
 </Project>

@@ -1,7 +1,7 @@
 #include "Precompiled.h"
 
 #include "../Domain/DTO/Errors/ErrorDTO.h"
-#include "../Domain/DTO/Errors/ErrorDTO.h.reflect.h"
+#include "../Domain/DTO/Errors/ErrorDTO.reflect.h"
 #include "HttpErrors.h"
 #include "HttpExceptionErrors.h"
 #include <boost/uuid/random_generator.hpp>

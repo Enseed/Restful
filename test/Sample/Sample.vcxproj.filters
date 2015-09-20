@@ -34,8 +34,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="HelloWorldDTO.h">
+    <REFLECT Include="HelloWorldDTO.h">
       <Filter>Header Files</Filter>
-    </CustomBuild>
+    </REFLECT>
   </ItemGroup>
 </Project>

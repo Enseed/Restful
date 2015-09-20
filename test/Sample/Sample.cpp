@@ -1,14 +1,14 @@
 #include "Precompiled.h"
-#include <Enseed/Restless/WebServer/RestlessServer.h>
-#include <Enseed/Restless/WebServices/WebService.h>
-#include <Enseed/Restless/HTTP/HttpMediaType.h>
-#include <Enseed/Restless/HTTP/HttpRequest.h>
-#include <Enseed/Restful/HTTP/HttpDTOResult.h>
-#include <Enseed/Restful/RestfulServer.h>
-#include <Enseed/Restless/HTTP/HttpExceptions.h>
+#include <Restless/WebServer/RestlessServer.h>
+#include <Restless/WebServices/WebService.h>
+#include <Restless/HTTP/HttpMediaType.h>
+#include <Restless/HTTP/HttpRequest.h>
+#include <Restful/HTTP/HttpDTOResult.h>
+#include <Restful/RestfulServer.h>
+#include <Restless/HTTP/HttpExceptions.h>
 
 #include "HelloWorldDTO.h"
-#include "HelloWorldDTO.h.reflect.h"
+#include "HelloWorldDTO.rh"
 
 class HelloWorldWebService : public restless::WebService
 {

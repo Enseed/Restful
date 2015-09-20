@@ -1,7 +1,7 @@
 #pragma once
 
-#include <Enseed/Restless/HTTP/HttpResult.h>
-#include <Enseed/Season/RapidSeason.h>
+#include <Restless/HTTP/HttpResult.h>
+#include <Season/RapidSeason.h>
 
 class HttpDTOResult : public HttpResult
 {

@@ -1,8 +1,8 @@
-#ifndef __RECLECT_ERRORDTO_H_REFLECT_H__
-#define __RECLECT_ERRORDTO_H_REFLECT_H__
-/* This file was generated on 2015-Aug-13 21:50:53 by Reflect */
+#ifndef __RECLECT_ERRORDTO_REFLECT_H__
+#define __RECLECT_ERRORDTO_REFLECT_H__
+/* This file was generated on 2015-Sep-19 19:18:01 by Enseed Reflect */
 
-#include <Enseed/Reflect/API/Class.h>
+#include <Reflect/Class.h>
 
 namespace reflect {
 
@@ -12,6 +12,7 @@ template<> struct Class<ErrorDTO, 0> : public ClassBase<ErrorDTO>
 	typedef ErrorDTO type;
 	static constexpr int parent_count = 0;
 	static constexpr int field_count = 6 ;
+	static constexpr const char* name() { return "ErrorDTO"; }
 
 	struct Fields
 	{
@@ -120,4 +121,4 @@ template<> struct SortedField<ErrorDTO, 5> : public Class<ErrorDTO>::Fields::tim
 
 } // namespace reflect
 
-#endif // __RECLECT_ERRORDTO_H_REFLECT_H__
+#endif // __RECLECT_ERRORDTO_REFLECT_H__

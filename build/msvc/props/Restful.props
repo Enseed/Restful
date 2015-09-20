@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <REFLECT_CMD>-fms-compatibility-version=19.00.22609 ..\..\..\Restful\Domain\DTO\Errors\ErrorDTO.h  -IC:\Users\petit\Documents\Restful_build\boost -I..\..\..\</REFLECT_CMD>
+    <REFLECT_EXE>..\..\..\Reflect\bin\x64\Reflect.exe</REFLECT_EXE>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ExecutablePath>..\..\..\Reflect\bin\$(Platform);$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\rapidjson\include;C:\Users\petit\Documents\Restful_build\cpp-netlib\uri\src;..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="REFLECT_CMD">
+      <Value>$(REFLECT_CMD)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="REFLECT_EXE">
+      <Value>$(REFLECT_EXE)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

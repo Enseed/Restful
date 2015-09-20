@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <tchar.h>
 
-#include <cpp-netlib/uri/src/network/uri.hpp>
+#include <network/uri.hpp>
 #include "Log.h"
 
 

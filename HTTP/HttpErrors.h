@@ -1,7 +1,7 @@
 #pragma once
 
-#include <Enseed/Restless/HTTP/HttpExceptions.h>
-#include <Enseed/Generic/AutoPtr/AutoPtr.h>
+#include <Restless/HTTP/HttpExceptions.h>
+#include <Generic/AutoPtr/AutoPtr.h>
 
 struct ErrorDTO;
 class HttpResult;

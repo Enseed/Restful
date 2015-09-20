@@ -1,8 +1,8 @@
-#ifndef __RECLECT_HELLOWORLDDTO_H_REFLECT_H__
-#define __RECLECT_HELLOWORLDDTO_H_REFLECT_H__
-/* This file was generated on 2015-Aug-13 21:51:07 by Reflect */
+#ifndef __RECLECT_HELLOWORLDDTO_RH__
+#define __RECLECT_HELLOWORLDDTO_RH__
+/* This file was generated on 2015-Sep-19 21:03:22 by Enseed Reflect */
 
-#include <Enseed/Reflect/API/Class.h>
+#include <Reflect/Class.h>
 
 namespace reflect {
 
@@ -12,6 +12,7 @@ template<> struct Class<HelloWorldDTO, 0> : public ClassBase<HelloWorldDTO>
 	typedef HelloWorldDTO type;
 	static constexpr int parent_count = 0;
 	static constexpr int field_count = 2 ;
+	static constexpr const char* name() { return "HelloWorldDTO"; }
 
 	struct Fields
 	{
@@ -60,4 +61,4 @@ template<> struct SortedField<HelloWorldDTO, 1> : public Class<HelloWorldDTO>::F
 
 } // namespace reflect
 
-#endif // __RECLECT_HELLOWORLDDTO_H_REFLECT_H__
+#endif // __RECLECT_HELLOWORLDDTO_RH__

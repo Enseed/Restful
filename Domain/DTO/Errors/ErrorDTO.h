@@ -3,7 +3,7 @@
 
 #include <string>
 #include <vector>
-#include <Enseed/Generic/CountPtr/CountPtr.h>
+#include <Generic/CountPtr/CountPtr.h>
 #include <boost/optional.hpp>
 
 #include <boost/date_time.hpp>
